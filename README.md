@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# ResumeCraftr - Resume Builder Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ResumeCraftr is a web application built with React.js and uses a JSON server as a backend. It provides users with the ability to create, edit, view, and delete resumes. The application is designed to help users efficiently craft and manage their resumes.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+ResumeCraftr offers the following key features:
 
-### `npm start`
+1. **Create Resume**: Users can start building a new resume from scratch. They can fill in details for different sections such as profile, education, about, experience, projects, and skills.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Edit Resume**: Users can edit and update the information on their resumes. This includes modifying existing sections or adding new ones as needed.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **View Resume**: Users can preview their resumes in a user-friendly format to see how it will appear to potential employers or colleagues.
 
-### `npm test`
+4. **Delete Resume**: If a user decides they no longer need a particular resume, they can delete it from their list.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. **Sections**: Resumes consist of several standard sections:
+   - **Profile**: Personal information, contact details, and a brief summary.
+   - **Education**: Academic qualifications and institutions attended.
+   - **About**: A more detailed description of the user, including their objectives and interests.
+   - **Experience**: Past job experiences and roles held.
+   - **Projects**: Projects the user has worked on, with descriptions and details.
+   - **Skills**: A list of skills .
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run ResumeCraftr on your local machine, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the Repository**:
+   ```
+   git clone https://github.com/Vinay-Id/ResumeCraftr.git
+   cd ResumeCraftr
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Install Dependencies**:
+   ```
+   npm install
+   ```
 
-### `npm run eject`
+33. **Start Application**:
+   Open a new terminal window and run the following command to start the React application:
+   ```
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Access the Application**:
+   Open your web browser and go to `http://localhost:3000` to access ResumeCraftr.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- React.js
+- HTML/CSS/Javascript
+- JSON Server
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you would like to contribute to ResumeCraftr, please fork the repository and create a pull request.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
