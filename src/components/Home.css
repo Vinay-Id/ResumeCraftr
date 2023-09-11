@@ -1,0 +1,160 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  background-color: #f9f9f9;
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+}
+div {
+  margin: 10px 0px;
+}
+.btn-div {
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 20px;
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li:hover {
+  transform: scale(1.02);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.resume-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid blue;
+}
+
+h4 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+input,
+textarea {
+  width: 96%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.editBtn {
+  padding: 8px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.editBtn:hover {
+  background-color: #0057b3d8;
+}
+.deleteBtn {
+  padding: 8px 10px;
+  background-color: tomato;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.deleteBtn:hover {
+  background-color: rgba(255, 99, 71, 0.844);
+}
+/* strong {
+  display: block;
+} */
+span {
+  display: block;
+}
+#btn {
+  padding: 12px 10px;
+  background-color: #00ff8c;
+  color: #fff;
+  display: block;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 10px;
+  width: 95%;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  div {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  h4 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+}

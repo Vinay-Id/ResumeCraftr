@@ -1,0 +1,57 @@
+{
+  "resumes": [
+    {
+      "name": "John Doe",
+      "email": "JhonDoe@gmail.com",
+      "experience": "5",
+      "currentDesignation": "Full Stack Developer",
+      "location": "California",
+      "phoneNo": "1234567890",
+      "website": "www.google.com",
+      "aboutMe": "Full stack developer with 5+ year of hands-on experience designing,developing and implementing application and solution using range of technologies and programming languages.",
+      "projects": [
+        {
+          "title": "Ecommercce App",
+          "tenure": "2022-2033",
+          "url": "www.amazon.com",
+          "description": "This is Ecommerce project "
+        }
+      ],
+      "academics": [
+        {
+          "title": "IIT",
+          "year": "2018-2022",
+          "description": "completed engeneering"
+        }
+      ],
+      "professionalExperience": [
+        {
+          "designation": "Full stack developer",
+          "organization": "Google",
+          "tenure": "2023",
+          "location": "California",
+          "description": "Developed more than 10 highly functional apps to analyze and process data for various client"
+        }
+      ],
+      "skills": [
+        {
+          "skillName": "React",
+          "skillRating": "4"
+        },
+        {
+          "skillName": "Javascript",
+          "skillRating": "5"
+        },
+        {
+          "skillName": "Node",
+          "skillRating": "3"
+        },
+        {
+          "skillName": "MongoDb",
+          "skillRating": "4"
+        }
+      ],
+      "id": 1
+    }
+  ]
+}
